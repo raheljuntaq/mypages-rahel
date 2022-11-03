@@ -1,0 +1,273 @@
+.home {
+  width: 70%;
+  margin: auto;
+  min-height: 90vh;
+  padding-top: 5%;
+}
+
+.dashboard {
+  top: 50% !important;
+  display: block;
+  align-self: center;
+}
+.first-page {
+  background: linear-gradient(180deg, #faf2f0, #fdfcfc);
+}
+
+.title {
+  text-align: left;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #eaa098;
+}
+.konten {
+  margin: auto;
+}
+
+.descript {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 70px;
+  font-family: "Karla", sans-serif;
+}
+
+.img-center {
+  align-self: center;
+}
+.img {
+  width: 400px;
+}
+
+.btn-pink {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.btn-pink:hover {
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.service {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #ffeff2;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  .home {
+    width: 90%;
+  }
+  .descript {
+    width: 90%;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  width: 70%;
+  justify-content: center;
+}
+
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.cards_item:hover {
+  animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 30rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+  height: 100%;
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+.section {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  background: linear-gradient(180deg, #faf2f0, #fdfcfc);
+  min-height: 90vh;
+}
+.section-item {
+  text-align: center;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.rounded-logo .logo {
+  font-size: 90px !important;
+}
+.rounded-logo-md .logo {
+  font-size: 4.8125rem;
+}
+.rounded-logo .logo {
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-top: 0.625rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: "Butler", Serif;
+  color: #000000;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+a.phone-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.text-grey {
+  color: #666 !important;
+  font-size: 1rem !important;
+  font-family: karla, sans-serif;
+  font-weight: 300 !important;
+  margin-top: 1.875rem;
+}
+
+.tulisan_login {
+  text-align: center;
+  /*membuat semua huruf menjadi kapital*/
+  text-transform: uppercase;
+}
+
+.kotak_login {
+  width: 350px;
+  background: linear-gradient(180deg, #faf2f0, #fdfcfc); /*meletakkan form ke tengah*/
+  margin: auto;
+  padding: 30px 20px;
+}
+
+label {
+  font-size: 11pt;
+}
+
+.form_login {
+  /*membuat lebar form penuh*/
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol_login {
+  background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.link {
+  color: #232323;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+.section2 {
+  background: #fff2f8;
+}
